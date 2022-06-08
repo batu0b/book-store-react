@@ -1,0 +1,106 @@
+    .navbar{
+        background-color: rgba(8, 8, 8, 0.7);
+        color: #fff;
+        opacity: 1;
+        display: flex;
+    align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        width: 100%;
+        padding: 15px;
+        top: 0;
+
+
+
+    }
+
+
+
+    .navbar h1 {
+        margin-left: 10px;
+    }
+
+    .navbar-items ul {display: flex;
+        justify-content: center;
+
+    list-style: none;
+    font-size: 25px;
+
+
+    }
+
+    .navbar-items ul li  {
+        
+        margin: 10px;
+    }
+
+    .linkler{
+        text-decoration: none;
+        color: #fff;
+    }
+    .linkler::after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 4px;
+        background: #d82148;
+        transition: width .3s ease-in;
+    }
+
+    .linkler:hover::after{
+        width: 100%;
+    }
+
+    .searchBar{
+    width: 50vw;
+    height: 30px;
+    padding: 6px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    
+    }
+
+    .searchBar:active{
+        border: none;
+    }
+
+    .main-header{
+        position: relative;
+        background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.9),
+        rgba(41, 41, 41, 0.8)
+        ),
+        url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_960_720.jpg");
+    background-repeat: no-repeat;
+        height: 93vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+
+
+
+    .main-header .header-content{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+    }
+
+    .header-content{
+        color: #eee;
+        font-size: 40px;
+
+    
+    }
+
+
+    
+    

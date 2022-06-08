@@ -1,0 +1,151 @@
+.page{
+    
+    display: flex;
+  
+ 
+    
+}
+
+.sidenav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 160px;
+    height: 100vh; /* Full-height: remove this if you want "auto" height */
+     /* Set the width of the sidebar */
+   position: sticky; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+   top: 0;
+   
+  
+   
+
+   
+   left: 0;
+   
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  
+  .sidenav h1 {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f1f1f1;
+    display: block;
+    border-bottom: 10px solid #d82148 ;
+    padding-bottom: 30px;
+    width: 100%;
+  }
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+
+.top{
+    margin-top: 80px;
+    margin-left:160px ;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container2{
+    justify-content: center;
+    margin-top: 58px;
+    display: flex;
+    padding: 10px;
+    flex-basis: 25%;
+    
+
+
+
+}
+
+.card-image{
+   height: 200px;
+}
+
+.card-image img{
+    border: 3px solid #111;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px; 
+   
+    width: 100%;
+    height: 100%;
+}
+
+.card{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 200px;
+    
+    background-color: #111;
+    color: #eee;
+    border-radius: 10px;
+    transition: all .5s;
+    width: 400px;
+    text-align: center;
+    align-items: center;
+
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 54px 55px, rgba(0, 0, 0, 0.32) 0px -12px 30px, rgba(0, 0, 0, 0.32) 0px 4px 6px, rgba(0, 0, 0, 0.37) 0px 12px 13px, rgba(0, 0, 0, 0.29) 0px -3px 5px;
+    
+
+
+
+
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+   
+ 
+   
+    
+  
+}
+
+.navbar2{
+    align-items: center;
+    margin-left: 160px;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.menu li {
+    
+    margin: 0 20px;
+    font-size: 22px;
+}

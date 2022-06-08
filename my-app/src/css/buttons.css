@@ -1,0 +1,116 @@
+.btn-1{
+    padding: 13px 10px;
+
+    border-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #d82148;
+    border: none;
+    transition: all .4s;
+    text-decoration: none;
+    font-size: large;
+    
+}
+
+.btn-1:hover {
+
+    background-color: #ac224056;
+
+
+
+}
+
+.btn-1:active{
+
+    background-color: #ed2651 ;
+}
+
+
+
+.btn-2{
+    margin-top: 10px ;
+    padding: 7px 16px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #d82148;
+    border: none;
+    transition: all .5s;
+    
+}
+
+.btn-2:hover {
+
+    background-color: #ac224056;
+
+
+
+}
+
+.btn-2:active{
+
+    background-color: #ed2651 ;
+}
+
+
+.btn-3{
+
+    margin: 5px;
+    background-color: #ed2651;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .5s;
+
+
+
+}
+
+.btn-3:hover{
+    background-color: #ed2651a9;
+}
+
+
+.btn-3:active{
+    background-color: #e3264f;
+}
+
+.radio-btn{
+   
+    background: none;
+    border: none;
+    color: #fff;
+    margin: auto 0;
+    cursor: pointer;
+    font-size: x-large;
+
+}
+
+
+.radio-btn:after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: #d82148;
+    transition: width .3s ease-in;
+}
+
+.radio-btn:hover:after{
+    
+    width: 100%;
+}
+
+
+.radio-btn:after::after{
+    content: '';
+    display: block;
+   
+    height: 4px;
+    background: #fff;
+    width: 100%;
+
+}
